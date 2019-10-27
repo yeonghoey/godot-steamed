@@ -1,3 +1,9 @@
 # Steamworks SDK shouldn't be tracked
 steamworks_sdk_146.zip
 /sdk/
+
+# Build
+/bin/
+
+# macOS
+.DS_Store

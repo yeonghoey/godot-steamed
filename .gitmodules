@@ -1,6 +1,7 @@
 [submodule "godot"]
 	path = godot
 	url = https://github.com/godotengine/godot.git
+	ignore = untracked
 [submodule "GodotSteam"]
 	path = GodotSteam
 	url = https://github.com/Gramps/GodotSteam.git
