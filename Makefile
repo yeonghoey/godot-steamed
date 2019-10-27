@@ -32,7 +32,6 @@ bin/GodotSteamed.app: \
 bin/GodotSteamed.app/Contents/MacOS/Godot: godot/bin/godot.osx.tools.64
 	mkdir -p '$(dir $@)'
 	cp '$<' '$@'
-	upx '$@'
 	chmod +x '$@'
 
 
@@ -57,7 +56,6 @@ bin/osx_template.app: \
 bin/osx_template.app/Contents/MacOS/godot_osx_release.64: godot/bin/godot.osx.opt.64
 	mkdir -p '$(dir $@)'
 	cp '$<' '$@'
-	upx '$@'
 	chmod +x '$@'
 
 
@@ -71,7 +69,6 @@ bin/osx_template.app/Contents/MacOS/libsteam_api.dylib: \
 bin/godot-steamed-win.exe: godot/bin/godot.windows.opt.64.exe
 	mkdir -p '$(dir $@)'
 	cp '$<' '$@'
-	upx '$@'
 	chmod +x '$@'
 
 
